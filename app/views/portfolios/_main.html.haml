@@ -1,0 +1,38 @@
+#main
+  #mainvisual
+    .pc
+      = image_tag "/pc.jpg"
+  .profile
+    %h2.ttl Profile
+    .profile-contents
+      .profile-contents__image
+        = image_tag "/my.jpg"
+      .profile-contents__main
+        %p.a 菅野 魁斗 （すがの かいと）
+        %p 1996年8月7日生まれの23歳
+        %p 高校卒業後、専門学校に通い19歳で消防士になる
+        %p その後、自分のアイデアや作りたいサービスを形にできる
+        %p プログラミングに魅力を感じ、23歳で転職を決意する
+        %p 2019年10月より、TECH::EXPERTでプログラミングの勉強を始める
+  .work
+    %h2.ttl Works
+    %ul.worklist
+      %li
+        %p.photo
+          = link_to "/" do
+            = image_tag "/camp-space.jpg",class:"camp"
+      %li
+        %p.photo
+          = link_to "/" do
+            = image_tag "/fmarket.jpg", class:"fmarket"
+
+  .contact1
+    %h2.ttl Contact
+    .contact__sub
+      ご依頼はk.0807roadster@gmail.com
+      %br
+      またはtwitterのDMまでお願いいたします
+  
+  .toTop
+    .top
+      = fa_icon 'angle-double-up'
