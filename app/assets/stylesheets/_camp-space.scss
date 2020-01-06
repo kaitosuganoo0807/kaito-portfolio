@@ -1,0 +1,46 @@
+.inner {
+  max-width: 960px;
+  padding: 0;
+  margin: 0 auto;
+  .Boxcf {
+    margin: 0;
+    .ttl-large {
+      margin: 0 0 70px 0;
+      font-size: 46px;
+      text-align: left;
+      line-height: 1.0;
+      font-family: sans-serif;
+      font-weight: 100;
+      letter-spacing: 0.05em;
+    }
+    .workslist {
+      margin-bottom: 50px;
+      font-size: 15px;
+      .workslast {
+        margin-bottom: 0;
+        .camp-img {
+          margin-bottom: 45px;
+          img {
+            width: 960px;
+          }
+        }
+        .ttl1 {
+          font-size: 18px;
+          font-weight: bold;
+          text-align: left;
+          line-height: 1.5;
+          color: #505050;
+          margin-bottom: 15px;
+          .skill {
+            margin-bottom: 15px;
+            font-size: 15px;
+          }
+          .readlast {
+            margin-bottom: 30px;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

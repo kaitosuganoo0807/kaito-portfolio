@@ -1,0 +1,20 @@
+%body#works
+  = render "header"
+
+  #main.inner
+    %section.Boxcf
+      %h2.ttl-large Works
+      %ul.workslist
+        %li.workslast
+          = link_to "http://camp-space.herokuapp.com/" do
+            .camp-img
+              = image_tag "/camp-space.jpg"
+          %h3.ttl1
+            Camp-Space
+            %p.skill HTML,CSS / Ruby(Rails) / javascript(jquery)
+            %p.readlast キャンプ用品のレンタル、現地宅配サービスのCamp-Spaceを作成しました。『キャンプしたいけど初心者だし道具を揃えるのが大変』、『家族で楽しくキャンプがしたい！』という方におすすめです！道具もセットで最低限のものは揃っているので十分キャンプを楽しめます！
+  .toTop
+    .top
+      = fa_icon 'angle-double-up'
+
+  = render "footer"
