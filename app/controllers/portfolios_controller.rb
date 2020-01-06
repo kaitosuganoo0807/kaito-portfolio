@@ -7,4 +7,7 @@ class PortfoliosController < ApplicationController
 
   def fmarket
   end
+
+  def contact
+  end
 end

@@ -29,10 +29,23 @@
   .contact1
     %h2.ttl Contact
     .contact__sub
-      ご依頼はk.0807roadster@gmail.com
+      制作の依頼・ご相談などお気軽にお問い合わせくださいませ。
       %br
-      またはtwitterのDMまでお願いいたします
-  
+      下記フォームよりわかる範囲でご記入ください。
+    %form{action: "https://formspree.io/k.0807roadster@gmail.com",method: "POST"}
+      .form-group
+        %label{for: "name"} name
+      %br
+        %input#name.form-control{name: "name",type: "text"}/
+      %br
+        %label{for: "email"} email
+      %br
+        %input#email.form-control{name: "email",type: "email"}/
+      .form-group
+        %label{for: "message"} message
+      %br
+        %textarea#message.form-control{cols: "40", name: "message", rows: "10"}
+      %button.btn.btn-primary{type: "submit"} 送信する
   .toTop
     .top
       = fa_icon 'angle-double-up'
