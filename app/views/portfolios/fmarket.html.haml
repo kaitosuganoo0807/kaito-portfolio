@@ -1,0 +1,20 @@
+%body#works
+  = render "header"
+
+  #main.inner
+    %section.Boxcf
+      %h2.ttl-large Works
+      %ul.workslist
+        %li.workslast
+          = link_to "http://52.193.251.163/" do
+            .camp-img
+              = image_tag "/fmarket.jpg"
+          %h3.ttl1
+            Fmarket
+            %p.skill HTML,CSS / Ruby(Rails) / javascript(jquery)
+            %p.readlast フリマアプリのコピーサイトを作成しました。商品出品、購入ができます。工夫した点は検索機能で、名前の検索だけでなく値段や商品の状態、新着商品か古い商品でも検索できます。ぜひ試してみてください！
+  .toTop
+    .top
+      = fa_icon 'angle-double-up'
+
+  = render "footer"

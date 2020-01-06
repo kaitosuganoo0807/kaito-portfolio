@@ -27,10 +27,12 @@ header {
   margin: 0 auto;
   h1 {
     position: absolute;
-    top: -105px;
+    top: 0;
     left: 0;
     .logo1 {
-      height: 430px;
+      height: 200px;
+      width: 430px;
+      border: none;
     }
   }
   nav {
