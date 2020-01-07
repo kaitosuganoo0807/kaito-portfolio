@@ -1,0 +1,21 @@
+%body#works
+  = render "header"
+
+  #main.inner
+    %section.Boxcf
+      %h2.ttl-large Works
+      %ul.workslist
+        %li.workslast
+          = link_to "http://18.176.117.209" do
+            .camp-img
+              = image_tag "/chat-space.jpg"
+          %h3.ttl1
+            Chat-Space
+            %p.skill HTML,CSS / Ruby(Rails) / javascript(jquery)
+            %p.readlast カリキュラムでチャットサイトを作成しました！自分の趣味や興味のあるチャンネルに登録しチャットすることができます。
+            = link_to "READMEはこちらです ➡️", "https://github.com/kaitosuganoo0807/chat-space", class:"readme"
+  .toTop
+    .top
+      = fa_icon 'angle-double-up'
+
+  = render "footer"

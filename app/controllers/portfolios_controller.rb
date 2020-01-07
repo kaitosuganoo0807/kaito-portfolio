@@ -10,4 +10,7 @@ class PortfoliosController < ApplicationController
 
   def contact
   end
+
+  def chat_space
+  end
 end
